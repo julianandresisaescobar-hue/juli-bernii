@@ -188,3 +188,66 @@ max-width: 850px;
     margin-bottom: 15px;
     text-align: center;      /* çcentrado */
 }
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contenedor principal del índice */
+.indice-moderno {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.indice-moderno h3 {
+    text-align: center;
+    color: #0078d4; /* Azul Microsoft */
+    margin-top: 0;
+    border-bottom: 2px solid #0078d4;
+    padding-bottom: 10px;
+}
+
+/* Quitar los puntos de la lista  */
+.indice-moderno ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.indice-moderno li {
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+/* Estilo */
+.indice-moderno a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    font-weight: 500;
+}
+
+/* */
+.indice-moderno a:hover {
+    background-color: #0078d4;
+    color: white;
+    border-color: #005a9e;
+}
+
+.indice-moderno li:hover {
+    transform: translateX(5px); /*movimiento a la derecha */
+}
+
+/*  título no quede pegado arriba al saltar */
+.bloque-modulo {
+    scroll-margin-top: 50px;
+}
